@@ -57,64 +57,66 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Cadastro Cliente.aspx" />
-    <Content Include="Cadastro Compra.aspx" />
-    <Content Include="Cadastro Fornecedor.aspx" />
-    <Content Include="Cadastro Funcionario.aspx" />
-    <Content Include="Cadastro PagamentoSalario.aspx" />
-    <Content Include="Cadastro Produto.aspx" />
-    <Content Include="Cadastro Venda.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="CadastroCliente.aspx" />
+    <Content Include="CadastroCompra.aspx" />
+    <Content Include="CadastroFornecedor.aspx" />
+    <Content Include="CadastroFuncionario.aspx" />
+    <Content Include="CadastroPagamentoSalario.aspx" />
+    <Content Include="CadastroProduto.aspx" />
+    <Content Include="CadastroVenda.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cadastro Cliente.aspx.cs">
-      <DependentUpon>Cadastro Cliente.aspx</DependentUpon>
+    <Compile Include="CadastroCliente.aspx.cs">
+      <DependentUpon>CadastroCliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cadastro Cliente.aspx.designer.cs">
-      <DependentUpon>Cadastro Cliente.aspx</DependentUpon>
+    <Compile Include="CadastroCliente.aspx.designer.cs">
+      <DependentUpon>CadastroCliente.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro Compra.aspx.cs">
-      <DependentUpon>Cadastro Compra.aspx</DependentUpon>
+    <Compile Include="CadastroCompra.aspx.cs">
+      <DependentUpon>CadastroCompra.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cadastro Compra.aspx.designer.cs">
-      <DependentUpon>Cadastro Compra.aspx</DependentUpon>
+    <Compile Include="CadastroCompra.aspx.designer.cs">
+      <DependentUpon>CadastroCompra.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro Fornecedor.aspx.cs">
-      <DependentUpon>Cadastro Fornecedor.aspx</DependentUpon>
+    <Compile Include="CadastroFornecedor.aspx.cs">
+      <DependentUpon>CadastroFornecedor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cadastro Fornecedor.aspx.designer.cs">
-      <DependentUpon>Cadastro Fornecedor.aspx</DependentUpon>
+    <Compile Include="CadastroFornecedor.aspx.designer.cs">
+      <DependentUpon>CadastroFornecedor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro Funcionario.aspx.cs">
-      <DependentUpon>Cadastro Funcionario.aspx</DependentUpon>
+    <Compile Include="CadastroFuncionario.aspx.cs">
+      <DependentUpon>CadastroFuncionario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cadastro Funcionario.aspx.designer.cs">
-      <DependentUpon>Cadastro Funcionario.aspx</DependentUpon>
+    <Compile Include="CadastroFuncionario.aspx.designer.cs">
+      <DependentUpon>CadastroFuncionario.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro PagamentoSalario.aspx.cs">
-      <DependentUpon>Cadastro PagamentoSalario.aspx</DependentUpon>
+    <Compile Include="CadastroPagamentoSalario.aspx.cs">
+      <DependentUpon>CadastroPagamentoSalario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cadastro PagamentoSalario.aspx.designer.cs">
-      <DependentUpon>Cadastro PagamentoSalario.aspx</DependentUpon>
+    <Compile Include="CadastroPagamentoSalario.aspx.designer.cs">
+      <DependentUpon>CadastroPagamentoSalario.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro Produto.aspx.cs">
-      <DependentUpon>Cadastro Produto.aspx</DependentUpon>
+    <Compile Include="CadastroProduto.aspx.cs">
+      <DependentUpon>CadastroProduto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cadastro Produto.aspx.designer.cs">
-      <DependentUpon>Cadastro Produto.aspx</DependentUpon>
+    <Compile Include="CadastroProduto.aspx.designer.cs">
+      <DependentUpon>CadastroProduto.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro Venda.aspx.cs">
-      <DependentUpon>Cadastro Venda.aspx</DependentUpon>
+    <Compile Include="CadastroVenda.aspx.cs">
+      <DependentUpon>CadastroVenda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cadastro Venda.aspx.designer.cs">
-      <DependentUpon>Cadastro Venda.aspx</DependentUpon>
+    <Compile Include="CadastroVenda.aspx.designer.cs">
+      <DependentUpon>CadastroVenda.aspx</DependentUpon>
     </Compile>
     <Compile Include="DAL\DALCliente.cs" />
     <Compile Include="DAL\DALCompra.cs" />

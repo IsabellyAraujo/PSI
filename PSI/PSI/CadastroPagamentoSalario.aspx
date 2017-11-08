@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastro Fornecedor.aspx.cs" Inherits="PSI.Cadastro_Fornecedor" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CadastroPagamentoSalario.aspx.cs" Inherits="PSI.Cadastro_PagamentoSalario" %>
 
 <!DOCTYPE html>
 

@@ -16,7 +16,7 @@
             <p>
                 Projeto de Sistemas para Internet</p>
             <p>
-                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Cadastro Cliente.aspx">Cliente</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CadastroCliente.aspx">Cliente</asp:HyperLink>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:HyperLink ID="HyperLink2" runat="server">Fornecedor</asp:HyperLink>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
